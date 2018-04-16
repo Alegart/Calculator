@@ -24,7 +24,7 @@ function printRBracket (a) {
 	}
 };
 
-function resetDlt(a) {
+function resetDlt (a) {
 	var elem = document.getElementById('result');
 	if (a == 'r') {
 		elem.value = '';
@@ -36,5 +36,5 @@ function resetDlt(a) {
 function equal() {
 	var elem = document.getElementById('result'), replace;
 	replace = elem.value.replace('÷', '/').replace('x', '*');
-	console.log(typeof replace);
+	
 };
