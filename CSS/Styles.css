@@ -1,0 +1,64 @@
+@import url(reset.css);
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#main {
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+}
+
+.content {
+	background-color: #3d4543;
+	box-shadow: 5px 5px 2px 0 #1C1C1C;
+	margin: auto;
+	width: 370px;
+	height: 310px;
+	border-radius: 10px;
+	border: 1px Solid #1C1C1C;
+}
+
+button {
+	background-color: #FFFFFF;
+	border: 1px Solid #1C1C1C;
+	width: 60px;
+	height: 40px;
+	margin: 4px 3px;
+	font-size: 22px;
+	border-radius: 10px;
+	float: right;
+	outline: none;
+}
+
+#result {
+	width: 340px;
+	height: 50px;
+	margin: 10px;
+	margin-top: 15px;
+	padding: 0 5px;
+	font-size: 18px;
+	border-radius: 10px;
+	border: 1px Solid #1C1C1C;
+	outline: none;
+}
+
+.numbers {
+	width: 210px;
+	margin: 0 5px 5px 0;
+	float: left;
+}
+
+.operations {
+	width: 140px;
+	margin: 0 5px 5px 5px;
+	float: left;
+}
+
+.RoundBracket {
+	width: 27px;
+}
+
+.equal {
+	height: 88px;
+}

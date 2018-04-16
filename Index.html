@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Calculator</title>
+	<link href="CSS/Styles.css" type="text/css" rel="stylesheet"/>
+	<script src="main.js"></script>
+</head>
+<body>
+	<div id="main">
+		<div class="content">
+			<input id='result' type="text" readonly>
+			<hr>
+			<div class="numbers">
+				<button type="button" onclick="printNumLBr('9')">9</button>
+				<button type="button" onclick="printNumLBr('8')">8</button>
+				<button type="button" onclick="printNumLBr('7')">7</button>
+
+				<button type="button" onclick="printNumLBr('6')">6</button>
+				<button type="button" onclick="printNumLBr('5')">5</button>
+				<button type="button" onclick="printNumLBr('4')">4</button>
+
+				<button type="button" onclick="printNumLBr('3')">3</button>
+				<button type="button" onclick="printNumLBr('2')">2</button>
+				<button type="button" onclick="printNumLBr('1')">1</button>
+
+				<button type="button" onclick="resetDlt('r')">C</button>
+				<button type="button" onclick="printOper('.')">.</button>
+				<button type="button" onclick="printNumLBr('0')">0</button>
+			</div>
+
+			<div class="operations">
+				<button type="button" onclick="printOper('+')">+</button>
+				<button type="button" onclick="printOper('-')">-</button>
+				<button type="button" onclick="printOper('×')">×</button>
+				<button type="button" onclick="printOper('÷')">÷</button>
+				<button type="button" class="equal" onclick="equal()">=</button>
+				<button type="button" class="RoundBracket" onclick="printRBracket(')')">)</button>
+				<button type="button" class="RoundBracket" onclick="printNumLBr('(')">(</button>
+				<button type="button" onclick="resetDlt('d')">←</button>
+			</div>
+		</div>
+	</div>
+
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</body>
+</html>
