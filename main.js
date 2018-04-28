@@ -35,6 +35,6 @@ function resetDlt (a) {
 
 function equal() {
 	var elem = document.getElementById('result'), replace;
-	replace = elem.value.replace('÷', '/').replace('x', '*');
+	elem = elem.value.replace('÷', '/').replace('x', '*');
 	
 };
