@@ -3,15 +3,15 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Calculator</title>
-	<link href="CSS/Styles.css" type="text/css" rel="stylesheet"/>
 	<script src="main.js"></script>
+	<link href="CSS/Styles.css" type="text/css" rel="stylesheet"/>
 </head>
 <body>
 	<div id="main">
 		<div class="content">
 			<input id='result' type="text" readonly>
 			<hr>
-			
+
 			<div class="numbers">
 				<button type="button" onclick="printNumLBr('9')">9</button>
 				<button type="button" onclick="printNumLBr('8')">8</button>
@@ -26,7 +26,7 @@
 				<button type="button" onclick="printNumLBr('1')">1</button>
 
 				<button type="button" onclick="resetDlt('r')">C</button>
-				<button type="button" onclick="printOper('.')">.</button>
+				<button type="button" onclick="printPoint('.')">.</button>
 				<button type="button" onclick="printNumLBr('0')">0</button>
 			</div>
 
@@ -42,7 +42,7 @@
 			</div>
 		</div>
 	</div>
-
+	
 	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </body>
 </html>
